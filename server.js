@@ -56,7 +56,7 @@ app.post('/scrape-linkedin', async (req, res) => {
       const response = await fetch(url, {
           method: 'POST',
           headers: {
-              'x-rapidapi-key': process.env.x-rapidapi-key,
+              'x-rapidapi-key': process.env.rapidapikey,
               'x-rapidapi-host': 'linkedin-bulk-data-scraper.p.rapidapi.com',
               'Content-Type': 'application/json',
               'x-rapidapi-user': 'usama'
